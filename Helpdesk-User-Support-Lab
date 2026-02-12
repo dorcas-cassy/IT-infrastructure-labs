@@ -1,1 +1,38 @@
+# Helpdesk User Support Lab (Active Directory)
+
+## Project Overview
+This lab simulates real IT Helpdesk tasks using Windows Server Active Directory.
+
+## Skills Practiced
+- User account creation
+- Security group management
+- Password reset
+- Folder permissions
+- Login troubleshooting
+- Account disable/enable (security scenario)
+
+---
+
+## Step 1 — Create Users
+Created domain users:
+- Dorcas Asante
+- Esther Asante
+
+## Step 2 — Create Helpdesk Security Group
+Created "Helpdesk-Team" security group and added users.
+
+## Step 3 — Password Reset
+Simulated helpdesk password reset request.
+
+## Step 4 — Shared Folder Permissions
+Configured NTFS permissions for Helpdesk-Team.
+
+## Step 5 — Login Test
+Tested domain login from workstation.
+
+## Step 6 — Disable Account (Security Scenario)
+Disabled user account to simulate security action.
+
+## Step 7 — Re-enable Account
+Re-enabled account and verified access.
 
