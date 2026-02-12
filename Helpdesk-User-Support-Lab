@@ -11,8 +11,6 @@ This lab simulates real IT Helpdesk tasks using Windows Server Active Directory.
 - Login troubleshooting
 - Account disable/enable (security scenario)
 
----
-
 ## Step 1 — Create Users
 Created domain users:
 - Dorcas Asante
