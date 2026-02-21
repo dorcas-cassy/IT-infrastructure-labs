@@ -7,7 +7,8 @@
 ![Dashboard](Screenshot/IMG2.jpg)
 
 ### Ticket Assignment
-![Assignment](Screenshot/IMG3.jpg)
+![Assignment](Internal Issues.pdf
+)
 
 ### Internal Notes & Troubleshooting
 ![Internal Note](Screenshot/IMG4.jpg)
