@@ -1,1 +1,107 @@
+📌 Project Overview
 
+This project demonstrates a complete Help Desk Ticketing System deployment and workflow simulation using osTicket in a local lab environment.
+The goal of this lab was to simulate a real corporate IT Support environment where users submit incidents and agents manage, troubleshoot,
+and resolve support tickets.
+
+The project covers:
+
+Ticket creation
+Help Topic configuration
+Agent assignment
+Internal documentation
+User communication
+Ticket resolution lifecycle
+
+Technologies Used
+
+Linux (Ubuntu)
+Apache Web Server
+PHP
+MySQL Database
+osTicket Ticketing System
+Localhost Lab Environment
+
+Lab Setup
+✔️ Installed osTicket locally
+
+Configured:
+Web server
+Database connection
+Admin panel access
+Support Center portal
+
+✔️ Created Help Desk Structure
+
+Configured custom Help Topics including:
+Hardware Issue
+Software Issue
+Network Connectivity
+Security Alert
+General Inquiry
+
+✔️ Ticket Workflow Simulation:
+Simulated real end-user support requests through the Support Center portal.
+
+Example incidents created:
+
+Laptop not powering on(Hardware Issue)
+Suspicious login notification(Security Alert)
+Outlook application crash(Software Issues)
+Office WiFi connectivity issue(Network Connectivity)
+Incident Handling Process(Account Access)
+
+1️⃣ Ticket Created by User
+
+Users submitted requests via the Support Center web form.
+
+2️⃣ Agent Assignment
+
+Tickets were assigned to IT Support agent:
+
+Cass Lilac (Agent)
+
+3️⃣ Professional Response
+
+Agent replied to users with troubleshooting steps.
+
+Example:
+
+Please confirm if the charging indicator light turns on when the adapter is plugged in.
+
+4️⃣ Internal Documentation
+
+Added internal notes for technical tracking:
+
+Hardware diagnosis
+Troubleshooting steps
+Observations
+
+These notes remain hidden from end users.
+
+5️⃣ Ticket Resolution
+
+After troubleshooting workflow:
+
+Ticket priority updated
+Status changed to Closed
+
+Skills Demonstrated;
+
+IT Support Incident Management
+Help Desk Ticket Lifecycle
+End-User Communication
+Troubleshooting Documentation
+Ticket Assignment & Escalation
+Security Awareness Handling
+
+Key Learning Outcomes
+
+Simulated real-world Help Desk operations
+Practiced structured troubleshooting workflow
+Learned how ticketing systems organize support teams
+Improved professional communication style in IT environments
+
+👩🏽‍💻 Author
+Dorcas Asantewaa (Cassy Lilac)
+IT Support | Cloud & DevOps Enthusiast
