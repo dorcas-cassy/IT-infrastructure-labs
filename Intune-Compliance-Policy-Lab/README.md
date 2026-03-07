@@ -24,3 +24,25 @@ The policy was assigned to the **IT Department** group to simulate an enterprise
 
 ## Screenshots
 Screenshots showing the policy configuration steps will be included in the **Screenshots** folder.
+
+
+
+## Key Screenshots
+
+### Microsoft 365 Admin Dashboard
+![Admin Dashboard](Screenshots/Step2_Microsoft365_Admin_Dashboard.PNG)
+
+### Active Users in Microsoft 365
+![Users](Screenshots/Step5_M365 Active Users.PNG)
+
+### Device Visible in Intune
+![Device](Screenshots/Step10_Device_Visible_Intune.PNG)
+
+### Compliance Security Settings
+![Security Settings](Screenshots/Step13_Compliance_Security_Settings.PNG)
+
+### Policy Assignment to IT Department
+![Assignment](Screenshots/Step17_Policy_Assignment.PNG)
+
+### Compliance Policy Successfully Created
+![Policy Created](Screenshots/Step19_Compliance_Policy_Created.PNG)
