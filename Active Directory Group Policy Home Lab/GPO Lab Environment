@@ -1,1 +1,192 @@
+Active Directory Group Policy Home Lab
+Overview
 
+This project documents my hands-on practice with Group Policy Objects (GPOs) in a Windows Server Active Directory home lab.
+The goal of this lab was to gain practical experience with Windows Server administration, Active Directory management, and domain security configuration.
+
+In this lab, I configured multiple policies, including:
+
+Password Policy
+Account Lockout Policy
+Desktop Wallpaper Policy
+Control Panel Restriction
+USB Storage Restriction
+Drive Mapping
+
+This README provides a step-by-step guide for configuring Password Policy, followed by a summary of the additional policies implemented in the lab.
+
+Lab Environment
+Component	Description
+Operating System	Windows Server
+Directory Service	Active Directory Domain Services (AD DS)
+Management Tool	Group Policy Management Console (GPMC)
+Environment	Virtual machine home lab
+Domain	Domain controller configured
+
+Skills Demonstrated
+
+Active Directory administration
+Windows Server configuration
+Group Policy Object (GPO) creation and management
+Password security implementation
+Domain policy administration
+Technical documentation using GitHub
+
+Step-by-Step Guide: Configuring Password Policy in Active Directory
+Purpose
+
+Password Policy is used to enforce strong password rules across a domain.
+This helps improve security by requiring users to create stronger passwords and change them according to defined standards.
+
+Step 1: Open Group Policy Management
+On the Windows Server machine:
+Open Server Manager
+
+Click Tools
+Select Group Policy Management
+This opens the Group Policy Management Console (GPMC), where domain policies can be created and managed.
+
+Screenshot: Insert your first screenshot here
+
+Step 2: Expand the Domain
+In the left pane of Group Policy Management:
+Expand Forest
+Expand Domains
+Select your domain
+This allows you to choose where you want to create and link the new Group Policy Object.
+
+Screenshot: Insert screenshot showing the domain expanded
+
+Step 3: Create a New Group Policy Object
+Right-click the domain or selected Organizational Unit (OU), then click:
+Create a GPO in this domain, and Link it here
+This creates a new Group Policy Object and links it to the selected location.
+
+Screenshot: Insert screenshot showing “Create a GPO in this domain, and Link it here”
+
+Step 4: Name the GPO
+When the New GPO dialog box appears:
+Enter the name:
+
+Password Policy
+Click OK
+
+The new Group Policy Object will now appear under the selected domain or OU.
+Screenshot: Insert screenshot showing the GPO name “Password Policy”
+
+Step 5: Edit the Password Policy GPO
+Right-click the newly created Password Policy GPO and select:
+Edit
+This opens the Group Policy Management Editor, where the policy settings can be configured.
+
+Screenshot: Insert screenshot showing the Group Policy Management Editor opening
+
+Step 6: Navigate to Password Policy Settings
+In the Group Policy Management Editor, go to:
+Computer Configuration → Policies → Windows Settings → Security Settings → Account Policies → Password Policy
+This section contains the domain password settings.
+
+Screenshot: Insert screenshot showing the navigation path to Password Policy
+
+Step 7: Configure Minimum Password Length
+Double-click:
+Minimum password length
+
+Then:
+Check Define this policy setting
+Enter the minimum number of characters
+
+In my lab, I set it to:
+12 characters
+Click Apply
+Click OK
+This ensures users must create passwords with at least 12 characters.
+
+Screenshot: Insert screenshot showing Minimum Password Length configuration
+
+Step 8: Configure Password Complexity
+Double-click:
+Password must meet complexity requirements
+Then:
+Check Define this policy setting
+Select Enabled
+Click Apply
+Click OK
+
+This forces users to create more secure passwords using a combination of uppercase, lowercase, numbers, and special characters.
+
+Screenshot: Insert screenshot showing Password Complexity enabled
+
+Step 9: Configure Password Age Settings
+Still inside Password Policy, configure the password age values.
+In my lab, I used:
+Maximum password age: 90 days
+Minimum password age: 30 days
+
+These settings help control how often passwords can and must be changed.
+
+Screenshot: Insert screenshot showing configured password age values
+
+Step 10: Verify the Final Configuration
+After completing the settings, review the Password Policy window to confirm the policy values have been applied.
+Final configured values in this lab:
+
+Setting	Value
+Minimum Password Length	12 characters
+Maximum Password Age	90 days
+Minimum Password Age	30 days
+Password Complexity	Enabled
+
+This confirms that the Password Policy has been successfully configured.
+
+Screenshot: Insert screenshot showing the final configured policy list
+
+Result
+The Password Policy now enforces:
+Stronger password creation
+Password complexity requirements
+Defined password expiration rules
+This improves domain security and reduces the risk of weak passwords.
+Additional Policies Implemented in This Lab
+
+In addition to Password Policy, I also configured the following Group Policy settings in the same Active Directory home lab:
+
+1. Account Lockout Policy
+Configured account lockout settings to protect the domain from brute-force login attempts.
+
+2. Desktop Wallpaper Policy
+Configured a default desktop wallpaper for users.
+
+3. Control Panel Restriction
+Restricted users from accessing the Control Panel.
+
+4. USB Storage Restriction
+Configured policy settings to prevent the use of removable USB storage devices.
+
+5. Drive Mapping
+Configured user drive mapping settings for shared resources.
+
+These additional policies were implemented to simulate common enterprise system administration and security tasks.
+
+Project Outcome
+
+Through this lab, I gained practical experience with:
+Active Directory administration
+Windows Server policy management
+Group Policy Object creation and configuration
+Domain password security settings
+Technical documentation and project presentation
+
+Future Improvements
+
+Future updates to this project may include:
+Step-by-step documentation for Account Lockout Policy
+OU-based policy targeting
+Shared folder permissions
+Login scripts
+Additional Windows Server security controls
+
+Author
+
+Dorcas Asantewaa
+Active Directory | Windows Server | IT Support | Cloud | DevOps
