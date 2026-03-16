@@ -125,7 +125,7 @@ Minimum password age: 30 days
 
 These settings help control how often passwords can and must be changed.
 
-Screenshot: Insert screenshot showing configured password age values
+Screenshot: ![Password Age Settings](Screenshot/images/final-password-policy.png)
 
 Step 10: Verify the Final Configuration
 After completing the settings, review the Password Policy window to confirm the policy values have been applied.
@@ -139,7 +139,7 @@ Password Complexity	Enabled
 
 This confirms that the Password Policy has been successfully configured.
 
-Screenshot: Insert screenshot showing the final configured policy list
+Screenshot: ![Final Password Policy Configuration](Screenshot/images/final-password-policy.png)
 
 Result
 The Password Policy now enforces:
