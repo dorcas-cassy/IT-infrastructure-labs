@@ -46,7 +46,7 @@ Click Tools
 Select Group Policy Management
 This opens the Group Policy Management Console (GPMC), where domain policies can be created and managed.
 
-![Open Group Policy Console](Screenshot/images/Open GPO Console.PNG)
+Screenshot: ![Open Group Policy Console](Screenshot/images/open-gpo-console.png)
 
 Step 2: Expand the Domain
 In the left pane of Group Policy Management:
