@@ -46,7 +46,7 @@ Click Tools
 Select Group Policy Management
 This opens the Group Policy Management Console (GPMC), where domain policies can be created and managed.
 
-Screenshot: ![Open Group Policy Console](Screenshot/images/open-gpo-console.png)
+![Open Group Policy Console](Screenshot/images/open-gpo-console.png)
 
 Step 2: Expand the Domain
 In the left pane of Group Policy Management:
@@ -55,14 +55,14 @@ Expand Domains
 Select your domain
 This allows you to choose where you want to create and link the new Group Policy Object.
 
-Screenshot: ![Group Policy Management Console](Screenshot/images/gpo-management-console.png)
+![Group Policy Management Console](Screenshot/images/gpo-management-console.png)
 
 Step 3: Create a New Group Policy Object
 Right-click the domain or selected Organizational Unit (OU), then click:
 Create a GPO in this domain, and Link it here
 This creates a new Group Policy Object and links it to the selected location.
 
-Screenshot: ![Create GPO](Screenshot/images/create-gpo.jpg)
+![Create GPO](Screenshot/images/create-gpo.jpg)
 
 Step 4: Name the GPO
 When the New GPO dialog box appears:
@@ -79,14 +79,14 @@ Right-click the newly created Password Policy GPO and select:
 Edit
 This opens the Group Policy Management Editor, where the policy settings can be configured.
 
-Screenshot: Insert screenshot showing the Group Policy Management Editor opening
+![Open Policy Editor](Screenshot/images/open-pp-editor.jpg)
 
 Step 6: Navigate to Password Policy Settings
 In the Group Policy Management Editor, go to:
 Computer Configuration → Policies → Windows Settings → Security Settings → Account Policies → Password Policy
 This section contains the domain password settings.
 
-Screenshot: ![Open Policy Editor](Screenshot/images/open-pp-editor.jpg)
+![Open Policy Editor](Screenshot/images/open-pp-editor.jpg)
 
 Step 7: Configure Minimum Password Length
 Double-click:
@@ -102,7 +102,7 @@ Click Apply
 Click OK
 This ensures users must create passwords with at least 12 characters.
 
-Screenshot: ![Enabled Password](Screenshot/images/enabled-password.jpg)
+![Enabled Password](Screenshot/images/enabled-password.jpg)
 
 Step 8: Configure Password Complexity
 Double-click:
@@ -115,7 +115,7 @@ Click OK
 
 This forces users to create more secure passwords using a combination of uppercase, lowercase, numbers, and special characters.
 
-Screenshot: ![Final Password Policy](Screenshot/images/final-password-policy.jpg)
+![Final Password Policy](Screenshot/images/final-password-policy.jpg)
 
 Step 9: Configure Password Age Settings
 Still inside Password Policy, configure the password age values.
@@ -125,7 +125,7 @@ Minimum password age: 30 days
 
 These settings help control how often passwords can and must be changed.
 
-Screenshot: ![Password Age Settings](Screenshot/images/final-password-policy.png)
+![Password Age Settings](Screenshot/images/final-password-policy.png)
 
 Step 10: Verify the Final Configuration
 After completing the settings, review the Password Policy window to confirm the policy values have been applied.
@@ -139,7 +139,7 @@ Password Complexity	Enabled
 
 This confirms that the Password Policy has been successfully configured.
 
-Screenshot: ![Final Password Policy Configuration](Screenshot/images/final-password-policy.png)
+![Final Password Policy Configuration](Screenshot/images/final-password-policy.png)
 
 Result
 The Password Policy now enforces:
